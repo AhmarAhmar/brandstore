@@ -1,0 +1,759 @@
+	*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ /*---------------------------------------- NAV BAR START---------------------------- */
+ .navbar{
+	background: #fff;
+	color:black;
+	text-shadow: 0px 0px 0px black;
+ }
+ 
+ .nav-item:hover{
+	 color: #78C1F3;
+ }
+ ul li .nav-link:hover{
+	 color: #78C1F3 ;
+ }
+ 
+ ul li .nav-link{
+	 font-size: 16px;
+ }
+ 
+ .nav-item h6{
+		padding-top:8px;
+ }
+ 
+ .nav-item i{
+	   padding-top:10px;
+ }
+ 
+ .navbar #show{
+		  display: none;
+ }
+ .navbar .show-icon{
+		   display: none;
+ }
+ 
+ .navbar-toggler{
+ border-radius: 0 !important;
+ border: none !important;
+ box-shadow: none !important;
+ padding: 13px 12px !important;
+ background-color: black !important;
+ }
+
+ #sh{
+	display: none;
+}
+ 
+/*------------------------------------------------- 1ST PAGE START---------------------------------------- */
+.page-1st{
+	display: flex;
+	background: #F5F7F9;
+	padding-bottom:80px; 
+
+}
+/*-------------------------------------------- SIDER BAR START------------------------ */
+.page-1st .sidebar{
+	min-height: 100vh;
+	width: 350px;
+	background: #F5F7F9;
+}
+
+	/*-------- EMAIL START----- */
+.email{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	padding-top: 70px;
+	padding-right: 18px;
+}
+.sidebar .email input{
+			margin-left: 20px;
+			outline: none;
+			width: 90%;
+			padding: 9px 10px;
+			border: none;
+			box-shadow: 0px 0px 1px gray;	
+}
+
+.sidebar #itag  i{
+			background: #0075BE;
+			color: #fff;
+			padding: 13px;
+}
+	/*-------- EMAIL END----- */
+
+/*---------------------------------RNGE SLIDER START --------------------------------------------*/
+
+.container-range{
+	position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    margin-top: 20px;
+}
+
+.container-range .range-slider{
+	position: relative;
+	width: 90%;
+	position: relative;
+	height: 4px;
+	background:#000;
+    outline: none;
+    top: 1px;
+	margin: 0px 26px;
+}
+
+.container-range .range-slider .progress{
+	height: 100%;
+    position: absolute; 
+
+}
+
+.container-range .range-slider  input[type="range"]{
+	position: absolute;
+	top:-7px;
+	left: -5px;
+	width: 102%;
+	-webkit-appearance: none;
+	background: none;
+	pointer-events:none;
+	outline: none;
+
+}
+
+.container-range .range-slider input::-webkit-slider-thumb{
+	pointer-events: auto;
+	-webkit-appearance: none;
+	width: 17px;
+	height: 17px;
+	background: black;
+	border-radius: 50px;
+}
+
+
+
+
+	/*--------BUTON AND PRICE START----- */
+
+.sidebar #btn{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top:40px; 
+			padding: 0px 23px;
+			
+}
+.value-container{
+	margin-top: 10px;
+
+}
+ .sidebar #btn .value-container{
+	display: flex;
+}
+
+.value-container #min_input::before{
+	content: '$'; 
+
+  
+  }
+  .value-container #max_input::before{
+	content: '-$'; 
+  }
+
+.sidebar #btn button{
+    height: 25px;
+    width: 69px;
+    border: none;
+    margin-top: 11px;
+    background: #0075BE;
+    color: #fff;
+}
+/*---------------------------------RNGE SLIDER END --------------------------------------------*/
+
+#btn h6{
+	font-size: 14px;
+	padding-left:30px;
+	margin-top: 10px;
+}
+
+	/*--------BUTON AND PRICE END----- */
+
+.sidebar h5{
+	padding:42px 9px 6px 28px;
+
+}
+
+	/*--------UL START----- */
+
+#cat ul{
+	list-style: none;
+}
+
+#cat ul li {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		padding-right: 26px;
+}
+	/*--------UL END----- */
+.sidebar h4{
+		padding: 20px 27px;
+}
+
+.sidebar .container-fluid{
+					padding: 25px;
+}
+/* --------------------------------------SIDER BAR SMALL CARD START--------------------------------- */
+.small-card{
+		display: flex;
+		gap: 10px;
+		padding:10px 0; 
+}
+
+.small-card .image{
+			height: 80px;
+			width: 80px;	
+}
+
+.small-card .image  img{
+				height: 100%;
+				width: 100%;
+}
+/* --------------------------------------SIDER BAR SMALL CARD START--------------------------------- */
+
+/*-------------------------------------------- SIDER BAR END------------------------ */
+
+
+/*-------------------------------------- CENTER PAGE START ------------------------------------*/
+.page-1st .center{
+			min-height: vh;
+			width: 73%;
+			margin-top: 70px;
+			background: #fff;	
+}
+
+#center-txt{
+		padding-top: 70px;
+		padding-left: 96px;
+}
+
+/* ----------------------------------DROPDOWN MENU START----------------------------- */
+
+#dropdown-txt{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#dropdown-txt{
+	list-style: none;
+	padding-right: 110px;
+}
+#dropdown-txt .nav-link dropdown-toggle{
+		padding-right: 60px;
+		color: black;
+}	
+
+#dropdown-txt .dropdown-menu{
+    line-height: 13px;
+    cursor: pointer;
+    height: 151px;
+    width: 210px;
+    border: 1px solid #a6aeb552;
+    border-radius: 0;
+
+}
+
+#dropdown-txt .dropdown-item:hover{
+	background: #0075BE;
+	color: #fff;
+}
+
+/* ----------------------------------DROPDOWN MENU END----------------------------- */
+
+
+
+/*-------------------------------------- card styling start---------------------------- */
+
+.cards{
+	padding: 30px 90px;
+	
+}
+.cards h1{
+		text-align:center;
+		margin-bottom:70px;
+}
+.cards h1::after{
+			content:'';
+			background:#0084D6;
+			width:100px;
+			height:3px;
+			border-radius:5px;
+			position:absolute;
+			margin-top:70px;
+			left:50%;
+			transform:translatex(-50%);	  
+ }
+
+/*------------------------------- BAG WALA BUTTON  START----------------------------- */
+.img .small-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 15%;
+	left: 82%;
+	opacity: 0;
+	background: #fff;
+	padding-top: 4px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.img:hover .small-btn {
+	opacity: 1;
+}
+
+.small-btn i {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.small-btn:hover button {
+	opacity: 1;
+}
+
+/*------------------------------- BAG WALA BUTTON  END----------------------------- */
+
+
+/*------------------------------- BAG WALA BUTTON  sa aga add to cart wala button start----------------------------- */
+
+.small-btn button {
+	margin-left: -97px;
+	margin-top: -22px;
+	opacity: 0;
+	border-radius: 2px;
+	border: none;
+	background: #000;
+	color: #fff;
+	padding: 4px 12px;
+	font-size: 13px;
+}
+
+/*------------- nock style div start----------- */
+.small-btn button::after {
+	content: "";
+	position: absolute;
+	height: 8px;
+	width: 7px;
+	top: 12px;
+	right: 32px;
+	background-color: #000;
+	transform: translatex(-50%) rotate(45deg);
+}
+
+/*------------- nock style div End----------- */
+
+.small-btn .btn:hover {
+	display: none;
+}
+
+/*------------------------------- BAG WALA BUTTON  sa aga add to cart wala button start----------------------------- */
+
+.tag{
+	height: 30px;
+    width: 61px;
+    background: white;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 19px;
+	margin-left: 19px;
+	box-shadow: 0 0 4px 0 #0e010159;	
+}
+
+.cards h6 span{
+	color:#949596;
+}
+.cards p{
+	margin-bottom:5px;
+}
+.cards h5{
+	margin-top:10px;
+}	
+.cards .product-card{
+	         padding-bottom:50px;
+}
+
+/*----------------------------- CIRCLE BUTTON START------------------------------ */
+.cards .circle {
+	cursor: pointer;
+	display: flex;
+}
+
+.cards .circle-btn button {
+	padding: 1px 6px;
+	font-size: 13px;
+	border-radius: 4px;
+	margin-top: -54px;
+	margin-left: -34px;
+	color: white;
+	background: #000;
+	position: relative;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.cards .circle .circle-btn .btn-one:hover+button {
+	opacity: 1;
+}
+
+/*------------- nock style div start----------- */
+.cards .circle .circle-btn button::after {
+	content: "";
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	top: 17px;
+	right: 10px;
+	background-color: black;
+	transform: translatex(-50%) rotate(45deg);
+}
+
+/*------------- nock style div start----------- */
+
+/*----------------------------- CIRCLE BUTTON END------------------------------ */
+
+/*---------------------------------------- PAGINATION START------------------------------------------ */
+
+.pagination{
+	margin-top: 70px;
+}
+.pagination .page-item{
+	border-radius: 0;
+	margin: 3px;
+	
+}
+.pagination #page-link{
+	background-color: black;
+	color: #fff;
+	border-radius: 0;
+		
+	}
+	.pagination #page-linkone{
+		border-radius: 0;
+			
+		}	
+.pagination .page-link{
+	color: #000;
+	
+}
+.pagination #page-item1{
+	background-color: red;
+}
+.pagination a{
+display: flex;
+width: 40px;
+height: 38px;
+text-align: center;
+border-radius: 0;
+border-radius: none;
+align-items: center;
+}
+
+/*---------------------------------------- PAGINATION END------------------------------------------ */
+
+
+
+/*-------------------------------------- card styling end---------------------------- */
+
+/*-------------------------------------- CENTER PAGE START ------------------------------------*/
+
+/*------------------------------------------------- 1ST PAGE END---------------------------------------- */
+
+
+/*-------------------------------SMALL TEXT START-----------------------------------*/
+hr {
+	/* margin-top: 0rem;  */
+    margin-right: 0px;
+    margin-bottom: 1rem;
+     margin-left: 0px;
+}
+
+.small-txt{
+        width:100%;
+        position:relative;
+        display:flex;
+        background:#fff;
+		align-items:center;
+		padding: 20px 30px;
+}
+.small-txt:hover{
+color: #0084D6;
+}
+
+/*-------------------------------SMALL TEXT END-----------------------------------*/
+
+/*------------------------------FOOTER PAGE START---------------------------------------*/ 
+#footer{
+width:100%;
+background:white;
+color:black;
+
+}
+.footer .footer-main{
+             padding: 40px 70px;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-between;
+            align-items:right;
+       
+}
+
+.footer .footer-main .footer-link-1 h4{
+							  padding-top:40px;
+							  padding-right: 11px;
+}
+.footer .footer-main .footer-link-4 input{
+                                   display:block;
+                                   padding:12px;
+                                   height:40px;
+                                   width:250px;
+                                   background:#eeeeee;
+                                   border:none;
+}
+.footer .footer-main .footer-link-4 .button-1{
+                                       margin-top:10px;
+                                       height:37px;
+                                       background:blue;
+                                       border:none;
+                                       padding:0 25px;
+                                       color:white;
+}
+/*------------------------------FOOTER PAGE END---------------------------------------*/ 
+
+/*------------------------------END PAGE START---------------------------------------*/ 
+
+.end{
+height:12%;
+width:100%;
+position:relative;
+flex-wrap:wrap;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 50px;
+
+}
+.end p{
+    padding-top: 20px;
+}
+
+.end .icon i{
+    padding: 12px;
+    font-size: 17px;
+}
+/*------------------------------END PAGE END---------------------------------------*/ 
+
+
+
+
+
+
+  /*------------------------------- NAVBAR RESPONSIVE START ----------------------------*/
+
+  @media only screen and (max-width: 991px){
+	#nav-right{
+			   display:none;
+			  }
+			  #sh{
+				display:inline-block;
+			}
+		  
+	}
+	
+	@media only screen and (max-width: 991px){
+	.navbar  #logo{
+				display: none;
+		}
+	.navbar .show-icon{
+				  display:flex;
+	
+		}		
+	.navbar #show{
+				display:flex;
+				gap:17px;
+				padding-left: 65%;
+				padding-top: 10px;
+				color:black;	
+	}
+	
+	}
+	@media only screen and (max-width: 762px){	
+		.navbar #show{
+			padding-left: 60%;
+		}
+	}
+	
+	@media only screen and (max-width: 620px){	
+		.navbar #show{
+			padding-left: 50%;
+		}
+	}
+	
+	@media only screen and (max-width: 520px){	
+		.navbar #show{
+			padding-left: 40%;
+		}
+	}
+	
+	@media only screen and (max-width: 450px){	
+		.navbar #show{
+			padding-left: 35%;
+		}
+	}
+	
+	@media only screen and (max-width: 410px){	
+		.navbar #show{
+			padding-left: 30%;
+		}
+	}
+	
+	@media only screen and (max-width: 390px){	
+		.navbar #show{
+			padding-left: 26%;
+		}
+	}
+	 /*------------------------------- NAVBAR RESPONSIVE END ----------------------------*/
+
+/*------------------------------------------------- 1ST PAGE START---------------------------------------- */
+
+	 
+@media only screen and (max-width: 910px){
+.page-1st{
+		display: block;
+}
+
+.page-1st .sidebar{
+			min-height: 100vh;
+			width: 100%;
+			background: #F5F7F9;
+}
+
+.small-card{
+		display: flex;
+		gap: 10px;
+		padding:0px 0px; 
+}
+}
+
+
+
+@media only screen and (max-width: 1050px){
+.cards {
+    padding: 30px 30px;
+}
+.page-1st .center {
+				min-height: vh;
+				width: 100%;
+				margin-top: 50px;
+				background: #fff;
+}
+#center-txt{
+	padding-top: 70px;
+	padding-left: 30px;
+}
+#dropdown-txt{
+	list-style: none;
+	padding-right: 40px;
+}
+}
+
+
+/*------------------------------------------------- 1ST PAGE END---------------------------------------- */
+
+
+/*----------------------- FOOTER PAGE START-------------------- */
+
+	 @media only screen and (max-width: 542px){ 
+		.footer .footer-main{
+		padding: 40px 0px;
+	   display:block;
+	   flex-wrap:wrap;
+	   justify-content:center;
+	   text-align: center;
+	   align-items:center!important;
+  
+}
+.footer .footer-links{
+padding: 25px 0;
+	 }
+	 .footer .footer-main .footer-link-4 input {
+		display: block;
+		width: 90%;
+		margin: 20px;
+		height: 40px;
+		padding: 0 10px;
+		background: #eeeeee;
+		border: none;
+	 }
+	 .footer .footer-links p{	
+		 margin: 0;
+	 }
+	} 
+/*----------------------- FOOTER PAGE END-------------------- */
+
+	
+	 /*------------------------------- END PAGE START----------------------------*/
+	
+	 @media only screen and (max-width: 700px){ 
+	.end{
+		display:block;
+		padding:0 0px;	
+	}
+	.end p{
+		  padding-right:33px;
+		  text-align: center; 
+	}
+	.end .icon{
+			padding-left: 0px;
+			text-align: center;
+	}
+	
+	}
+	
+	@media only screen and (max-width: 450px){   
+		.end p{
+			  padding:0 20px;
+			  text-align: center; 
+		}
+	}
+		
+	 /*------------------------------- END PAGE END----------------------------*/    	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

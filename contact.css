@@ -1,0 +1,611 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+ /*---------------------------------------- NAV BAR START---------------------------- */
+.navbar{
+   background: #0c204b26;
+   color:white;
+   text-shadow: 1px 1px 1px black;
+}
+
+.nav-item h6{
+	   padding-top:8px;
+}
+
+.nav-item i{
+	  padding-top:10px;
+}
+
+.navbar #show{
+		 display: none;
+}
+.navbar .show-icon{
+		  display: none;
+}
+
+.navbar-toggler{
+border-radius: 0 !important;
+border: none !important;
+box-shadow: none !important;
+padding: 13px 12px !important;
+background-color: black !important;
+}
+
+#sh{
+	display:none;
+}
+ /*---------------------------------------- NAV BAR START---------------------------- */
+/*----------------------------------------------CONTACT PAGE START----------------------------------------------------*/
+
+   /*-------------------------------CONTACT DIV 1 CONT-1 START-----------------------------------*/
+
+.home-page{
+     height: 60%;
+     width: 100%;
+     position:relative;
+     background-image: url("images/contact.jpg");
+     background-size:cover;
+     background-position:bottom  center;
+     background-attachment:fixed;
+     z-index: 0;
+
+               
+}
+
+.home-page h1{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    font-size: 70px;
+    color: white;
+}
+
+.home-page::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(27, 41, 75);
+	opacity: 0.4;
+	z-index: -1;
+}
+   /*-------------------------------CONTACT DIV 1 CONT-1 END-----------------------------------*/
+
+
+   /*-------------------------------CONTACT DIV 2 CONT-2 START-----------------------------------*/
+
+.cont-2{
+	min-height: vh;
+    padding-bottom:50px;
+    width: 100%;
+	position:relative;
+	background: #F5F7F9;              
+}
+
+.cont-2 .text{
+			display: flex;
+			align-items:center;
+			justify-content: center;
+			flex-direction: column;
+			padding-top:70px;
+			padding-bottom: 50px;
+}
+
+.text h5{
+	  font-size: 25px;
+}
+
+.text #head-1{
+	font-size: 47px;
+	color: black;
+	text-shadow: none;
+}
+
+.text #head-1::after{
+			content:'';
+			background:black;
+			width:80px;
+			height:1px;
+			border-radius:5px;
+			position:absolute;
+			margin-top:70px;
+			left:48%;
+			transform:translatex(-50%);
+	 
+}
+
+.cont-2 .card{
+		 box-shadow:0 0 8px rgba(0,0,0,0.2);
+		 padding: 15px 0;
+		 border-radius: 10px;
+}
+
+.cont-2 .container-fluid{
+	padding: 0 80px;
+	}
+	
+
+.cont-2 .card .text-center{
+	                  color: blue;
+}
+
+.cont-2 .container-fluid .card .card-text p{
+	font-size: 6px;
+	
+}
+   /*-------------------------------CONTACT DIV 2 CONT-2 END-----------------------------------*/
+   
+   
+   /*-------------------------------CONTACT DIV 3 CONT-3 START-----------------------------------*/
+.cont-3{
+	 display: flex;
+	 background:#F5F7F9;
+	 position: relative;
+     justify-content:center;
+     padding: 0 60px;
+}
+
+
+.cont-3 .text{
+	background:#F5F7F9 ;
+	padding-top:7%;
+	padding-right:40px;
+	
+
+}
+.cont-3 .text h6{
+	font-size: 20px;
+}
+
+.cont-3 .text h2{
+	font-size: 42px;
+	padding-bottom:15px; 
+}
+.cont-3 .text p{
+	font-size: 16px;
+	color:#333333;
+}
+
+
+.cont-3 .contact{
+			height:60%;
+			background: white;
+			box-shadow:0 0 2px rgba(0,0,0,0.);
+			padding: 50px;
+			margin-bottom:40px;
+
+
+}
+
+.contact form input{
+				width:450px;
+				height:45px;
+				padding:0 10px;
+				margin-bottom:20px;
+				background: #FAFAFA;
+				border:1px solid #eeeeee;
+}
+.contact form input:hover{
+					background: white;
+					border:none;
+}
+
+textarea{
+		background: #FAFAFA;
+		border:1px solid #eeeeee;
+}
+
+
+
+#message button{
+			width: 170px;
+			height: 45px;
+			background-color: #0084D6;
+			border: none;
+			color: white;
+			cursor: pointer;
+			margin-top:20px;
+}
+
+   /*-------------------------------CONTACT DIV 3 CONT-3 END-----------------------------------*/
+
+/*-------------------------------SMALL TEXT START-----------------------------------*/
+
+
+.small-txt{
+	width:100%;
+	position:relative;
+	display:flex;
+	background:#fff;
+	align-items:center;
+	padding: 40px 20px 20px 20px;
+}
+.small-txt:hover{
+color: #0084D6;
+}
+
+/*-------------------------------SMALL TEXT END-----------------------------------*/
+
+/*------------------------------FOOTER PAGE START---------------------------------------*/ 
+#footer{
+width:100%;
+background:white;
+color:black;
+
+}
+.footer .footer-main{
+		 padding: 40px 70px;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+		align-items:right;
+   
+}
+
+.footer .footer-main .footer-link-1 h4{
+						  padding-top:40px;
+						  padding-right: 11px;
+}
+.footer .footer-main .footer-link-4 input{
+							   display:block;
+							   padding:12px;
+							   height:40px;
+							   width:250px;
+							   background:#eeeeee;
+							   border:none;
+}
+.footer .footer-main .footer-link-4 .button-1{
+								   margin-top:10px;
+								   height:37px;
+								   background:blue;
+								   border:none;
+								   padding:0 25px;
+								   color:white;
+}
+/*------------------------------FOOTER PAGE END---------------------------------------*/ 
+
+/*------------------------------END PAGE START---------------------------------------*/ 
+
+.end{
+height:12%;
+width:100%;
+position:relative;
+flex-wrap:wrap;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 50px;
+
+}
+.end p{
+padding-top: 20px;
+}
+
+.end .icon i{
+padding: 12px;
+font-size: 17px;
+}
+/*------------------------------END PAGE END---------------------------------------*/ 
+
+
+
+
+ /*-------------------------------RESPONSIVE DESIGN START-----------------------------------*/
+ 
+  /*------------------------------- NAVBAR RESPONSIVE START ----------------------------*/
+
+@media only screen and (max-width: 991px){
+	#nav-right{
+			   display:none;
+			  }
+	 .navbar{
+		   background: #fff;
+		}	
+		#sh{
+			display:inline-block;
+		}	  
+	}
+	
+	@media only screen and (max-width: 991px){
+	.navbar  #logo{
+				display: none;
+		}
+	.navbar .show-icon{
+				  display:flex;
+	
+		}		
+	.navbar #show{
+				display:flex;
+				gap:17px;
+				padding-left: 65%;
+				padding-top: 10px;
+				color:black;	
+	}
+	
+	}
+	@media only screen and (max-width: 762px){	
+		.navbar #show{
+			padding-left: 60%;
+		}
+	}
+	
+	@media only screen and (max-width: 620px){	
+		.navbar #show{
+			padding-left: 50%;
+		}
+	}
+	
+	@media only screen and (max-width: 520px){	
+		.navbar #show{
+			padding-left: 40%;
+		}
+	}
+	
+	@media only screen and (max-width: 450px){	
+		.navbar #show{
+			padding-left: 35%;
+		}
+	}
+	
+	@media only screen and (max-width: 410px){	
+		.navbar #show{
+			padding-left: 30%;
+		}
+	}
+	
+	@media only screen and (max-width: 390px){	
+		.navbar #show{
+			padding-left: 26%;
+		}
+	}
+	 /*------------------------------- NAVBAR RESPONSIVE END ----------------------------*/
+
+	 /*------------------------------- HOME-PAGE  START ----------------------------*/
+	 @media only screen and (max-width: 991px){	
+		.home-page {
+			height: 75%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position:top center;
+		}
+		.home-page h1{
+           font-size: 60px;
+			padding-top: 108px;	
+	} 
+}
+
+
+@media only screen and (max-width: 767px){	
+	.home-page {
+		height: 55%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		/* background-size:100% 100%; */
+	
+	}
+	.home-page h1{
+	   font-size: 50px;
+		padding-top: 108px;	
+} 
+}
+
+
+@media only screen and (max-width: 430px){	
+	.home-page {
+		height: 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position:top center;
+		background-size: auto 80%;
+	}
+	.home-page h1{
+	   font-size: 50px;
+		padding-top: 78px;	
+} 
+}
+
+
+
+	 /*------------------------------- HOME-PAGE  END ----------------------------*/
+
+
+	 /*-------------------------------CONT-2  START ----------------------------*/
+
+@media only screen and (max-width: 950px){
+.cont-2 .text  #head-1 {
+				font-size: 36px;
+				padding-top: 5px;
+
+}
+.cont-2 .container-fluid{
+					padding: 0 30px;
+}
+
+.cont-2 .container-fluid .card-title{
+							font-size: 22px;
+}
+.cont-2 .container-fluid .card-text{
+							font-size: 14px;
+}
+.cont-2 .container-fluid .text-center{
+							font-size: 17px;
+
+}
+
+	}
+@media only screen and (max-width: 767px){
+.cont-2 .text  #head-1 {
+				font-size: 30px;
+				padding-top: 8px;
+
+}
+.cont-2 .text h5 {
+            font-size: 20px;	
+}
+}
+
+	 /*-------------------------------CONT-2  END ----------------------------*/
+
+   /*------------------------------- CONT-3  START-----------------------------------*/
+
+ @media only screen and (max-width: 950px){
+.cont-3{
+	 display: block;
+	 background:#F6F7F9;
+	 position: relative;
+	 padding:0 50px 50px  50px;
+	 
+}
+	
+.cont-3 .text{
+		 display:flex;
+		 align-items:center;
+		 justify-content:center;
+		 flex-direction:column;
+		 padding-bottom: 10px;
+		 padding-right:0px;
+}
+
+.cont-3 .contact{
+			height:100%;
+			width:80%;
+			background: white;
+			box-shadow:0 0 2px rgba(0,0,0,0.);
+			padding: 50px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			margin-left:60px;
+}
+
+.contact form input{
+				width:450px;
+				height:45px;
+				padding:0 10px;
+				margin-bottom:20px;
+				background: #FAFAFA;
+				border:1px solid #eeeeee;
+}
+
+}
+
+ @media only screen and (max-width: 700px){
+.cont-3{
+	width:100%;
+	display: block;
+	padding:18px;
+}
+
+.cont-3 .text h2 {
+	       font-size: 28px;
+}
+.cont-3 .text p {
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+.cont-3 .contact{
+			height:100%;
+			width:100%;
+			background: white;
+			box-shadow:0 0 2px rgba(0,0,0,0.);
+			padding: 10px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			margin-left:0px;
+
+}
+
+.contact form input{
+				width:90%;
+				height:45px;
+				padding:0 10px;
+				margin-bottom:20px;
+				background: #FAFAFA;
+				border:1px solid #eeeeee;
+}
+
+ textarea{
+	  width:90%;
+}
+ }
+   /*------------------------------- CONT-3  END-----------------------------------*/
+ 
+
+/*----------------------- FOOTER PAGE START-------------------- */
+
+@media only screen and (max-width: 542px){ 
+	.footer .footer-main{
+	padding: 40px 0px;
+	display:block;
+	flex-wrap:wrap;
+	justify-content:center;
+	text-align: center;
+	align-items:center!important;
+
+}
+.footer .footer-links{
+padding: 25px 0;
+}
+.footer .footer-main .footer-link-4 input {
+		display: block;
+		width: 90%;
+		margin: 20px;
+		height: 40px;
+		padding: 0 10px;
+		background: #eeeeee;
+		border: none;
+}
+.footer .footer-links p{	
+margin: 0;
+}
+} 
+/*----------------------- FOOTER PAGE END-------------------- */
+
+
+/*------------------------------- END PAGE START----------------------------*/
+
+@media only screen and (max-width: 700px){ 
+.end{
+display:block;
+padding:0 0px;	
+}
+.end p{
+padding-right:33px;
+text-align: center; 
+}
+.end .icon{
+padding-left: 0px;
+text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 450px){   
+.end p{
+padding:0 20px;
+text-align: center; 
+}
+}
+
+/*------------------------------- END PAGE END----------------------------*/    	
+
+ /*-------------------------------RESPONSIVE DESIGN END-----------------------------------*/
+
+
+
+
+
+
+
+
+
+

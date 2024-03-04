@@ -1,0 +1,832 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+ /*---------------------------------------- NAV BAR START---------------------------- */
+.navbar{
+   background: #0c204b26;
+   color:white;
+   text-shadow: 1px 1px 1px black;
+}
+
+.nav-item h6{
+	   padding-top:8px;
+}
+
+.nav-item i{
+	  padding-top:10px;
+}
+
+.navbar #show{
+		 display: none;
+}
+.navbar .show-icon{
+		  display: none;
+}
+
+.navbar-toggler{
+border-radius: 0 !important;
+border: none !important;
+box-shadow: none !important;
+padding: 13px 12px !important;
+background-color: black !important;
+}
+
+#sh{
+    display:none;
+}	
+ /*---------------------------------------- NAV BAR START---------------------------- */
+
+
+/*----------------------------------------------CONTACT PAGE START----------------------------------------------------*/
+
+.about-page{
+     height: 80%;
+     width: 100%;
+     position:relative;
+     background-image: url("images/about.jpg");
+     background-size:cover;
+     background-position: bottom right;
+     background-attachment:fixed;
+     z-index: 0;
+
+               
+}
+
+.about-page h1{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    padding-top: 108px;
+    font-size: 70px;
+    color: white;
+}
+
+.about-page::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(6, 14, 61);
+	opacity: 0.4;
+	z-index: -1;
+}
+/*----------------------------------------------CONTACT PAGE END----------------------------------------------------*/
+
+
+/*---------------------------------------------- PAGE-2 START----------------------------------------------------*/
+
+
+.page-2{
+  
+    width: 100%;
+    position:relative;
+    background: #F5F7F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding:4%;
+}
+
+
+
+.page-2::after {
+    content: '';
+    background: #0084D6;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    left: 8%;
+    top: 24%;
+}
+
+.page-2 .txt{
+    background: white;
+    height: 340px;
+    width: 100%;
+    padding-right:60px; 
+}
+
+
+
+.page-2 .txt h1{
+    padding-top: 90px;
+    padding-left: 50px;
+}
+.page-2 .txt p{
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+
+.page-2 .imge{ 
+    height: 340px;
+    width: 100%;
+}
+
+.page-2 .imge img{ 
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+/*---------------------------------------------- PAGE-2 END----------------------------------------------------*/
+
+
+/*---------------------------------------------- PAGE-3 START----------------------------------------------------*/
+
+
+.page-3{
+    width: 100%;
+    position:relative;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom:70px; 
+}
+
+
+.page-3::after {
+    content: '';
+    background: #0084D6;
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    position: absolute;
+    left: 47%;
+    top: 13%;
+}
+
+.page-3 .text{
+     padding-top:11%;
+     display: flex;
+     align-items: center;
+     flex-direction: column; 
+}
+
+.page-3 .text p{
+    width: 60%;
+    text-align: center;
+    
+}
+
+.page-3  .container{
+  padding: 10px 100px;
+}
+
+.container .card{
+    background:#F5F7F9 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    border: none;
+}
+
+.card-text{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+
+.img-p{
+    height: 100px;
+    width: 100px;
+}
+
+
+.img-p img{
+height: 100%;
+width: 100%;
+}
+
+/*---------------------------------------------- PAGE-3 START----------------------------------------------------*/
+
+
+/*---------------------------------------------- PAGE-4 START----------------------------------------------------*/
+
+.page-4{
+    height: 70%;
+    width: 100%;
+    position:relative;
+    background-image: url("images/center.jpg");
+    background-size:cover;
+    background-position:right;
+    background-attachment:fixed;
+    z-index: 0;
+
+
+}
+
+.page-4::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(6, 14, 61);
+	opacity: 0.4;
+	z-index: -1;
+}
+
+.page-4 #small-div{
+               height: 100%;
+               position: absolute;
+               width: 400px;
+               background: #F5F7F9;
+               margin-left:38%; 
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: column;
+}
+
+
+#small-div::after {
+    content: '';
+    background: #0084D6;
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    position: absolute;
+    left: 40%;
+    top: 34%;
+}
+
+#small-div #icon i{
+    padding: 12px;
+    font-size:17px;
+
+
+}
+
+
+  /*----------------------------------------------LOGO CARD START----------------------------------------------------*/
+
+
+
+
+  .images-container{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap:wrap;
+    align-items:center;
+    padding-top:130px;
+    justify-content:center;
+}
+.images{
+    height: 350px;
+    width: 270px;
+    text-align:center;
+}
+
+
+/*-------------------------------SMALL TEXT START-----------------------------------*/
+
+
+.small-txt{
+    width:100%;
+    position:relative;
+    display:flex;
+    background:#fff;
+    align-items:center;
+    padding: 20px 30px;
+}
+.small-txt:hover{
+color: #0084D6;
+}
+
+/*-------------------------------SMALL TEXT END-----------------------------------*/
+
+/*------------------------------FOOTER PAGE START---------------------------------------*/ 
+#footer{
+width:100%;
+background:white;
+color:black;
+
+}
+.footer .footer-main{
+         padding: 40px 70px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        align-items:right;
+   
+}
+
+.footer .footer-main .footer-link-1 h4{
+                          padding-top:40px;
+                          padding-right: 11px;
+}
+.footer .footer-main .footer-link-4 input{
+                               display:block;
+                               padding:12px;
+                               height:40px;
+                               width:250px;
+                               background:#eeeeee;
+                               border:none;
+}
+.footer .footer-main .footer-link-4 .button-1{
+                                   margin-top:10px;
+                                   height:37px;
+                                   background:blue;
+                                   border:none;
+                                   padding:0 25px;
+                                   color:white;
+}
+/*------------------------------FOOTER PAGE END---------------------------------------*/ 
+
+/*------------------------------END PAGE START---------------------------------------*/ 
+
+.end{
+height:12%;
+width:100%;
+position:relative;
+flex-wrap:wrap;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 50px;
+
+}
+.end p{
+padding-top: 20px;
+}
+
+.end .icon i{
+padding: 12px;
+font-size: 17px;
+}
+/*------------------------------END PAGE END---------------------------------------*/ 
+
+
+
+ /*-------------------------------RESPONSIVE DESIGN START-----------------------------------*/
+ 
+  /*------------------------------- NAVBAR RESPONSIVE START ----------------------------*/
+
+  @media only screen and (max-width: 991px){
+	#nav-right{
+			   display:none;
+			  }
+	 .navbar{
+		   background: #fff;
+		}
+        #sh{
+            display:inline-block;
+        }		  
+	}
+	
+	@media only screen and (max-width: 991px){
+	.navbar  #logo{
+				display: none;
+		}
+	.navbar .show-icon{
+				  display:flex;
+	
+		}		
+	.navbar #show{
+				display:flex;
+				gap:17px;
+				padding-left: 65%;
+				padding-top: 10px;
+				color:black;	
+	}
+	
+	}
+	@media only screen and (max-width: 762px){	
+		.navbar #show{
+			padding-left: 60%;
+		}
+	}
+	
+	@media only screen and (max-width: 620px){	
+		.navbar #show{
+			padding-left: 50%;
+		}
+	}
+	
+	@media only screen and (max-width: 520px){	
+		.navbar #show{
+			padding-left: 40%;
+		}
+	}
+	
+	@media only screen and (max-width: 450px){	
+		.navbar #show{
+			padding-left: 35%;
+		}
+	}
+	
+	@media only screen and (max-width: 410px){	
+		.navbar #show{
+			padding-left: 30%;
+		}
+	}
+	
+	@media only screen and (max-width: 390px){	
+		.navbar #show{
+			padding-left: 26%;
+		}
+	}
+	 /*------------------------------- NAVBAR RESPONSIVE END ----------------------------*/
+
+	 /*------------------------------- ABOUT  PAGE  START ----------------------------*/
+@media only screen and (max-width: 991px){	
+.about-page {
+        background-position: bottom center;
+
+
+}
+.about-page h1{	
+            font-size: 60px;
+            padding-top: 170px;
+} 
+} 
+
+@media only screen and (max-width: 600px){	
+.about-page {		
+    background-size: 100% 100%;
+    background-size: cover;
+       height: 70%;
+               
+ }
+	 
+.about-page h1{	
+    font-size: 60px;
+    padding-top: 130px;
+}
+}
+      
+
+     /*------------------------------- ABOUT PAGE  END ----------------------------*/
+     
+      /*------------------------------- PAGE-2  START ----------------------------*/
+    
+@media only screen and (max-width: 1023px){	
+    .page-2{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            padding: 50px 30px;
+    }
+.page-2 .txt{
+    padding-right:30px; 
+    } 
+
+.page-2::after {
+        left: 9%;
+        top: 16%;
+    }     
+  
+ }
+ @media only screen and (max-width: 767px){
+.page-2 .txt{
+    padding:10px; 
+    text-align: center   
+} 
+.page-2::after {
+    left:38%;
+    top: 16%;
+}
+.page-2 .txt h1{
+    padding-top: 90px;
+    padding-left: 0px;
+}
+.page-2 .txt p{
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+}
+@media only screen and (max-width: 460px){
+.page-2 .imge{ 
+    height:250px ;
+    width: 100%;
+}
+}
+
+
+      /*------------------------------- PAGE-2  END ----------------------------*/
+
+
+             /*------------------------------- PAGE-3  START ----------------------------*/
+
+@media only screen and (max-width: 991px){
+.page-3  .container{
+            padding: 10px 30px;
+} 
+}
+
+
+ @media only screen and (max-width: 1098px){
+.page-3 .text p{
+    width: 100%;
+    text-align: center;
+    padding:20px;
+    
+}
+.page-3::after {
+            left: 46%;
+            top: 9%;
+     }
+ }
+
+ @media only screen and (max-width: 850px){
+    .page-3::after {
+        left: 44%;
+        top: 7%;
+ }
+}
+
+@media only screen and (max-width: 767px){
+    .page-3::after {
+        left: 44%;
+        top: 3%;
+ }
+}
+
+@media only screen and (max-width: 595px){
+    .page-3::after {
+        left: 44%;
+        top: 2%;
+ }
+}
+
+@media only screen and (max-width: 460px){
+    .page-3{
+          margin-top: 40px;
+    }
+    .page-3::after {
+        left: 40%;
+        top: 20px;
+ }
+}
+@media only screen and (max-width: 560px){
+    .page-3 {
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .page-3 .container {
+        padding: 11px 30px; 
+}
+}
+
+
+ @media only screen and (max-width: 1150px){
+    .container-p{
+        padding: 20px 120px;
+      }	
+
+}
+
+@media only screen and (max-width: 1024px){
+    .container-p{
+        padding: 20px 100px;
+      }	
+
+}
+
+@media only screen and (max-width: 900px){
+    .container-p{
+        padding: 20px 50px;
+      }	
+
+}
+
+
+             /*------------------------------- PAGE-3  END ----------------------------*/
+
+
+
+         /*------------------------------- PAGE-4  START ----------------------------*/
+
+ @media only screen and (max-width: 1100px){
+    #small-div::after{
+        display: none;
+    }            
+.page-4 #small-div{
+    height: 100%;
+    margin-left:34%; 
+ 
+}
+ }
+
+@media only screen and (max-width: 950px){        
+.page-4 #small-div{
+    height: 100%;
+    margin-left:30%; 
+    
+}
+    }
+
+@media only screen and (max-width: 850px){        
+.page-4 #small-div{
+    height: 100%;
+    margin-left:27%; 
+    
+}
+    } 
+         
+
+@media only screen and (max-width: 767px){        
+.page-4 #small-div{
+    height: 80%;
+    margin-left:27%; 
+    margin-top:6%; 
+    
+}
+    } 
+    
+@media only screen and (max-width: 710px){        
+.page-4 #small-div{
+    margin-left:22%; 
+    
+}
+    } 
+    
+@media only screen and (max-width: 650px){        
+.page-4 #small-div{
+    margin-left:18%; 
+    
+}
+    } 
+    
+@media only screen and (max-width: 580px){        
+.page-4 #small-div{
+    margin-left:15%;  
+    
+}
+} 
+@media only screen and (max-width: 550px){        
+.page-4 #small-div{
+    height: 70%;  
+    margin-left:12%; 
+    margin-top:10%; 
+    
+}
+    }  
+    
+@media only screen and (max-width: 510px){        
+.page-4 #small-div{ 
+    margin-left:10%; 
+    
+}
+    }
+    
+@media only screen and (max-width: 490px){        
+.page-4 #small-div{
+    height: 60%;
+    width: 300px;  
+    margin-left:15%; 
+    margin-top:19%; 
+    
+}
+    } 
+
+@media only screen and (max-width: 416px){        
+.page-4 #small-div{ 
+    margin-left:12%; 
+ 
+    
+}
+    } 
+    
+@media only screen and (max-width: 390px){        
+.page-4 #small-div{ 
+    margin-left:10%;  
+    
+}
+    } 
+    
+         /*------------------------------- PAGE-4  END ----------------------------*/
+ /*------------------------------- IMAGES PAGE START----------------------------*/
+ @media only screen and (max-width: 918px){
+	.images-page .container h3{
+		margin-left: -31px;
+	}
+	 }
+
+ @media only screen and (max-width: 550px){
+ .images-page{
+	padding: 0 10px;	
+}
+.images-page .container h3{
+	margin-left: -51px;
+}
+ }
+
+ /*------------------------------- IMAGES PAGE END----------------------------*/
+
+ /*------------------------------- SPECIAL PAGE START----------------------------*/
+
+
+@media only screen and (max-width: 1050px){
+
+.special-page .txt {
+               width: 70%;
+}
+}
+
+@media only screen and (max-width: 761px){
+.special-page{
+		background-position:center;	
+}
+.special-page .txt {
+	width: 100%;
+	padding:0 20px;
+	margin-top: -10px;	
+}
+
+.special-page .txt h4{
+		text-align: center;
+		padding-bottom: 10px;
+}
+
+.special-page .txt p{
+	line-height: 29px;
+}	
+
+.special-page .txt h5{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#home-btn {
+    width: 100%;		
+
+}
+ /*------------------------------- SPECIAL PAGE END----------------------------*/
+
+
+/*----------------------- FOOTER PAGE START-------------------- */
+
+@media only screen and (max-width: 542px){ 
+    .footer .footer-main{
+    padding: 40px 0px;
+    display:block;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align: center;
+    align-items:center!important;
+
+}
+.footer .footer-links{
+padding: 25px 0;
+}
+.footer .footer-main .footer-link-4 input {
+        display: block;
+        width: 90%;
+        margin: 20px;
+        height: 40px;
+        padding: 0 10px;
+        background: #eeeeee;
+        border: none;
+}
+.footer .footer-links p{	
+margin: 0;
+}
+} 
+/*----------------------- FOOTER PAGE END-------------------- */
+
+
+/*------------------------------- END PAGE START----------------------------*/
+
+@media only screen and (max-width: 700px){ 
+.end{
+display:block;
+padding:0 0px;	
+}
+.end p{
+padding-right:33px;
+text-align: center; 
+}
+.end .icon{
+padding-left: 0px;
+text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 450px){   
+.end p{
+padding:0 20px;
+text-align: center; 
+}
+}
+
+/*------------------------------- END PAGE END----------------------------*/    	
+

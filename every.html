@@ -1,0 +1,815 @@
+<html>
+
+<head>
+    <title>Everything page</title>
+    <link rel="stylesheet" href="every.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!------------bootstrap link------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!------------CDN link----------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!------------------------------- NAVBAR BAR START-------------------------- -->
+
+    <nav class="navbar navbar-expand-lg id=">
+        <div class="container-fluid py-sm-1 px-sm-1 py-md-1 px-md-3  py-lg-3 px-lg-5">
+            <a class="navbar-brand" href="#" id="logo"> <img src="images/log.png" width="170px;"> </a>
+            <div class="show-icon">
+                <a class="navbar-brand" href="#" id="logo-1"> <img src="images/log.png" width="100px;"> </a>
+            </div>
+            <!-- NAVBAR 991 SA NICHA KA LIA RIGHT SIDE  START -->
+            <div id="show">
+                <h6>$0.00</h6>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <!-- NAVBAR 991 SA NICHA KA LIA RIGHT SIDE  END -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav  gap-3">
+                    <ul class="navbar-nav  gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="every.html"> EVERYTHING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="women.html"> WOMEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="men.html"> MEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="acesory.html">ACCESSORIES </a>
+                        </li>
+                   <div id="sh">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="contact.html">CONTACT US</a>
+                        </li>
+                    </div>
+    
+                    </ul>
+                </div>
+                <!-- RIGHT SIDE FOR NAVBAR 991 PR DISPLAY NONE HO JAY GI IS KI  START-->
+                <div id="nav-right">
+                    <ul class="navbar-nav   gap-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="contact.html">CONTACT US</a>
+                        </li>
+                        
+                    <li class="nav-item">
+                        <h6>$0.00</h6>
+                    </li>
+
+                    <li class="nav-item">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-user"></i>
+                    </li>
+                </ul>
+            </div>
+            <!-- RIGHT SIDE FOR NAVBAR 991 PR DISPLAY NONE HO JAY GI IS KI  END-->
+
+        </div>
+    </nav>
+    <!------------------------------- NAVBAR BAR END-------------------------- -->
+
+
+    <!------------------------------------------- 1ST PAGE START --------------------------------------->
+
+    <div class="page-1st">
+
+    <!------------------------------------------- SIDEBAR  START --------------------------------------->
+    <div class="sidebar">
+
+        <div class="email">
+            <input type="email" placeholder="Search Products...">
+            <div id="itag">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <h4>Filter by Price</h4>
+
+            <!---------------------------- RANGE SLIDER START----------------------- -->
+            <div class="container-range">
+                <div class="range-slider">
+                <div class="progress"></div>
+                                <input type="range"class="min_range" min="20" max="290" value="0">
+                                <input type="range" class="max_range"  min="0" max="290" value="500"> 
+                </div>
+                </div>
+                
+                <div id="btn">
+                
+                <button id="btn-c">Filter</button>
+                <div class="value-container">
+                <p>price:</p>
+                <div id="min_input">20<h6></h6></div>
+                <div id="max_input">290<h6></h6></div>
+                </div>
+                </div>
+                
+                <!---------------------------- RANGE SLIDER END----------------------- -->
+                
+         <h5>Categories</h5>
+
+            <div id="cat">
+                <ul>
+                    <li> Accessories <span>(7)</span></li>
+                    <li> Men <span>(14)</span></li>
+                    <li> Women <span>(21)</span></li>
+
+                </ul>
+            </div>
+
+            <div id="saler">
+                <h4>Our Best Sellers</h4>
+
+    <!------------------------------------------- CARD CONTAINER START --------------------------------------->
+                <div class="container-fluid">
+
+                    <!-- ------------------small card 1 start------------------------ -->
+                    <div class="small-card">
+                        <div class="image">
+                            <img src="images/a9.jpg">
+                        </div>
+                        <div class="txt">
+                            <h6>Light Brown Purse</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>$150.00</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- ------------------small card 1 END------------------------ -->
+
+
+                    <!-- ------------------small card 2 start------------------------ -->
+                    <div class="small-card">
+                        <div class="image">
+                            <img src="image/a17.jpg">
+                        </div>
+                        <div class="txt">
+                            <h6>Flamingo Tshirt</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>$25.00 – $28.00</p>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <!-- ------------------small card 2 END------------------------ -->
+
+                    <!-- ------------------small card 3 start------------------------ -->
+                    <div class="small-card">
+                        <div class="image">
+                            <img src="image/a23.jpg">
+                        </div>
+                        <div class="txt">
+                            <h6>Dark Blue Denim Jean</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>$150.00</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- ------------------small card 3 END------------------------ -->
+
+
+
+
+                    <!-- ------------------small card 4 start------------------------ -->
+                    <div class="small-card">
+                        <div class="image">
+                            <img src="images/a11.jpg">
+                        </div>
+                        <div class="txt">
+                            <h6>Blue Hoodie </h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>$30.00 – $34.00</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- ------------------small card 4 END------------------------ -->
+
+
+
+                    <!-- ------------------small card 5 start------------------------ -->
+                    <div class="small-card">
+                        <div class="image">
+                            <img src="image/a18.jpg">
+                        </div>
+                        <div class="txt">
+                            <h6>Gray Pattern Tshirs</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>$150.00</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- ------------------small card 5 END------------------------ -->
+                </div>
+            </div>
+        </div>
+     <!------------------------------------------- CARD CONTAINER END --------------------------------------->
+
+ <!------------------------------------------- SIDEBAR END --------------------------------------->
+
+       
+        <!-- ----------------------------------------CENTER PAGE START--------------------- -->
+
+        <div class="center">
+            <div id="center-txt">
+                <p> Home / Store</p>
+                <div id="dropdown-txt">
+                    <h6>Showing all 7 results </h6>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Default Sorting</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Default Sorting</a></li>
+                            <li><a class="dropdown-item" href="#">Sort by popularity</a></li>
+                            <li><a class="dropdown-item" href="#">Sort by average rating</a></li>
+                            <li><a class="dropdown-item" href="#">Sort by latest</a></li>
+                            <li><a class="dropdown-item" href="#">Sort by price:low to high</a></li>
+                            <li><a class="dropdown-item" href="#">Sort by price:high to low</a></li>
+                        </ul>
+                </div>
+            </div>
+            <!------------------------------CARD PAGE START--------------------------------------->
+            <div class="cards">
+                <div class="product-card d-flex gap- row  ">
+
+
+                    <!------------------------------1 START--------------------------------------->
+                    <div class="card border-0  col-lg-4   col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>                       
+                            </div>
+
+                            <img src="images/a7.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Anchor Bracelet</h5>
+                            <p>Accessories</p>
+                            <h6> $150.00 – $180.00</h6>
+                             <div class="circle">
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle  btn-one" style="color: blue;"></i>
+                                    <button type="button" class="btn btn-dark">Blue</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one" style="color: Teal;"></i>
+                                    <button type="button" class="btn btn-dark">Teal</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one " style="color: Black;"></i>
+                                    <button type="button" class="btn btn-dark">Black</button>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------1  END--------------------------------------->
+
+                    <!------------------------------2 START--------------------------------------->
+                    <div class="card border-0  col-lg-4   col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+
+                            <img src="images/a5.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5>Basic Gray Jeans</h5>
+                            <p>Women</p>
+                            <h6> $150.00</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------2  END--------------------------------------->
+
+
+                    <!------------------------------3 START--------------------------------------->
+                    <div class="card border-0  col-lg-4   col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>                            
+                            </div>
+                            <img src="images/a12.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Black Hoodie</h5>
+                            <p>Men</p>
+                            <h6> $100.00 – $140.00</h6>
+                            <div class="circle">
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle  btn-one" style="color: blue;"></i>
+                                    <button type="button" class="btn btn-dark">Blue</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one" style="color: Teal;"></i>
+                                    <button type="button" class="btn btn-dark">Teal</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one " style="color: Black;"></i>
+                                    <button type="button" class="btn btn-dark">Black</button>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------3  END--------------------------------------->
+
+                    <!------------------------------4 START--------------------------------------->
+                    <div class="card border-0   col-lg-4 col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+
+                            <img src="image/a13.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Black Bag</h5>
+                            <p>Accessories</p>
+                            <h6> $150.00</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------4  END--------------------------------------->
+
+                    <!------------------------------5 START--------------------------------------->
+                    <div class="card border-0   col-lg-4  col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+                            <img src="images/a4.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5> Blue Denim Jeans</h5>
+                            <p>Women</p>
+                            <h6>$150.00</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------5  END--------------------------------------->
+
+
+                    <!------------------------------6 START--------------------------------------->
+                    <div class="card border-0  col-lg-4   col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+                            <div class="tag">
+                                <p>sale!</p>
+                            </div>
+                            <img src="images/a6.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5>Blue Denim Shorts</h5>
+                            <p>Women</p>
+                            <h6> $150.00</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------6  END--------------------------------------->
+
+
+
+
+
+                    <!------------------------------7 START--------------------------------------->
+                    <div class="card border-0   col-lg-4  col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+                            <img src="images/a11.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Blue Hoodie</h5>
+                            <p>Men</p>
+                            <h6> $150.00</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------7  END--------------------------------------->
+
+                    <!------------------------------8 START--------------------------------------->
+                    <div class="card border-0   col-lg-4    col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+                            <img src="image/a14.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Blue Tshirt</h5>
+                            <p>Men</p>
+                            <h6>$50.00</h6>
+                            <div class="circle">
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle  btn-one" style="color: blue;"></i>
+                                    <button type="button" class="btn btn-dark">Blue</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one" style="color: Teal;"></i>
+                                    <button type="button" class="btn btn-dark">Teal</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one " style="color: Black;"></i>
+                                    <button type="button" class="btn btn-dark">Black</button>
+                                </div>
+                            </div>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------8  END--------------------------------------->
+
+
+                    <!------------------------------9 START--------------------------------------->
+                    <div class="card border-0   col-lg-4    col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+                            <img src="images/a8.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Boho Bangle Bracelet</h5>
+                            <p>Accessories</p>
+                            <h6>$150.00 – $170.00</h6>
+                            <div class="circle">
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle  btn-one" style="color: blue;"></i>
+                                    <button type="button" class="btn btn-dark">Blue</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one" style="color: Teal;"></i>
+                                    <button type="button" class="btn btn-dark">Teal</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one " style="color: Black;"></i>
+                                    <button type="button" class="btn btn-dark">Black</button>
+                                </div>
+                            </div>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------9  END--------------------------------------->
+
+
+                    <!------------------------------10 START--------------------------------------->
+                    <div class="card border-0   col-lg-4 col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+
+                            <img src="image/a15.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Bright Gold Purse With Chain</h5>
+                            <p>Accessories</p>
+                            <h6> $150.00</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------10  END--------------------------------------->
+
+                    <!------------------------------11 START--------------------------------------->
+                    <div class="card border-0   col-lg-4  col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+                            <img src="images/a10.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Bright Red Bag</h5>
+                            <p>Accessories</p>
+                            <h6> $100.00 – $140.00</h6>
+                            <div class="circle">
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle  btn-one" style="color: blue;"></i>
+                                    <button type="button" class="btn btn-dark">Blue</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one" style="color: Teal;"></i>
+                                    <button type="button" class="btn btn-dark">Teal</button>
+                                </div>
+                                <div class="circle-btn">
+                                    <i class="fa-sharp fa-solid fa-circle btn-one " style="color: Black;"></i>
+                                    <button type="button" class="btn btn-dark">Black</button>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------11 END--------------------------------------->
+
+
+
+
+                    <!------------------------------12 START--------------------------------------->
+                    <div class="card border-0   col-lg-4 col-md-4 col-sm-6 bg-transparent rounded-0">
+                        <div class="img">
+                            <div class="small-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <button type="button" class="btn btn-dark">Add to cart</button>
+
+                            </div>
+
+                            <img src="image/a16.jpg" class="card-img-top rounded-0" alt="...">
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5>Buddha Bracelet</h5>
+                            <p>Accessories</p>
+                            <h6> $150.00</h6>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------12  END--------------------------------------->
+
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+
+                            </li>
+                            <li class="page-item" ><a class="page-link" id="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" id="page-linkone" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="fa-solid fa-arrow-right-long"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+    <!------------------------------------------- CARD CONTAINER END --------------------------------------->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------- 1ST PAGE  END --------------------------------------->
+
+
+        <!------------------------------SMALL TEXT START--------------------------------------->
+        <hr>
+        <div class="small-txt">
+            <h2>SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h2>
+        </div>
+        <hr>
+        <!------------------------------SMALL TEXT  END--------------------------------------->
+    
+        <!------------------------------FOOTER PAGE START--------------------------------------->
+    
+        <div class="footer" id="footer">
+            <div class="footer-main">
+                <div class="footer-link-1">
+                    <a href="#"><img src="images/log.png" alt="" width="92px"></a>
+                    <h4>
+                        The best look anytime, anywhere.
+                    </h4>
+                </div>
+    
+                <div class="footer-links">
+                    <h4>For Her</h4>
+    
+                    <p>Women Jeans</p>
+                    <p>Tops and Shirts</p>
+                    <p>Women Jackets</p>
+                    <p>Heels and Flats</p>
+                    <p>Women Accessories</p>
+    
+                </div>
+    
+    
+                <div class="footer-links">
+                    <h4>For Him</h4>
+                    <p>Men Jeans</p>
+                    <p>Men Shirts</p>
+                    <p>Men Shoes</p>
+                    <p>Men Accessories</p>
+                    <p>Men Jackets</p>
+    
+                </div>
+    
+    
+                <div class="footer-link-4">
+                    <h4>Subscribe</h4>
+                    <form>
+                        <input type="email" placeholder="Your email adress...">
+    
+                        <button type="submit" class="button-1">SUBSCRIBE</button>
+                    </form>
+    
+                </div>
+    
+    
+            </div>
+        </div>
+        <hr>
+        <!------------------------------FOOTER PAGE END--------------------------------------->
+    
+    
+        <!------------------------------END PAGE START--------------------------------------->
+    
+    
+        <div class="end">
+            <p>copyright @2023 Brandstore.Powered by Brandstore.</p>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+    
+        </div>
+    
+        <!------------------------------END PAGE END--------------------------------------->
+    
+   
+<script src="file.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
